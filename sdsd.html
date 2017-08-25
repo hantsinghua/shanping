@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device- width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=0"> 
+	<script src="js/rems.js"></script>
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+	<link rel="stylesheet" href="css/css.css">
+	
+</head>
+<body>
+	<div class="box">
+		<div class="yun">
+			<img src="img/2017-08-24_205200.png" alt="">
+		</div>
+		 <div class="lunbo">
+		 	<img src="img/2017-08-24_204956.png" alt="">
+		 </div>
+		<div class="swiper-container">
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide">
+		    	<div class="car ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+					<img src="img/2017-08-24_205300.png" alt="">
+				</div>
+				<ul class="wenzi">
+					<div class="wenzi ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"sswiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+						<li>寻找最划算的套餐</li>
+						<li>ZHESHIYIGETAOCANAPP</li>
+						<li>HUANYIONGLAIDAOSHAOTANGW</li>
+						<li>追.求.品.质.生.活</li>
+				</ul>
+				<div class="xian"></div>
+		    </div>
+		    <div class="swiper-slide">
+				<div class="car ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3"sswiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+					<img src="img/2017-08-25_093825.png" alt="">
+				</div>
+				<ul class="wenzi">
+					<div class="wenzi ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"sswiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+						<li>观看最美味的视频</li>
+						<li>ZHESHIYIGETAOCANAPP</li>
+						<li>HUANYIONGLAIDAOSHAOTANGW</li>
+						<li>追.求.品.质.生.活</li>
+				</ul>
+				<div class="xian"></div>
+		    </div>
+		    <div class="swiper-slide">
+		    	<div class="car ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3"sswiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+					<img src="img/2017-08-25_093729.png" alt="">
+				</div>
+				<ul class="wenzi">
+					<div class="wenzi ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"sswiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+						<li>和我一起寻找美食</li>
+						<li>ZHESHIYIGETAOCANAPP</li>
+						<li>HUANYIONGLAIDAOSHAOTANGW</li>
+						<li>追.求.品.质.生.活</li>
+				</ul>
+				<div class="xian"></div>
+				<a href="../APP/denglu.html" class="hexi">
+					<div class="queren">
+					<div class="dian"></div>
+					<div class="xunzhao">寻找美食</div>
+					<div class="dian1"></div>
+					</div>
+				</a>
+		</div>
+			
+	</div>
+		<div class="lunbidian"></div>
+		
+		  </div>
+	</div>
+	</div>
+</body>
+</html>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+  	pagination : '.swiper-pagination',
+  onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+    swiperAnimateCache(swiper); //隐藏动画元素 
+    swiperAnimate(swiper); //初始化完成开始动画
+  }, 
+  onSlideChangeEnd: function(swiper){ 
+    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+  } 
+  })        
+  </script>
+</body>
